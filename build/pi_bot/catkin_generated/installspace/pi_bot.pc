@@ -1,0 +1,8 @@
+prefix=/home/sergio/catkin_ws/install
+
+Name: pi_bot
+Description: Description of pi_bot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
