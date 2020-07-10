@@ -162,6 +162,8 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
  catkin_install_python(PROGRAMS
    scripts/pi_bot_driver.py
+   scripts/pi_cam_open_browser.py
+   scripts/pi_cam_stream.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

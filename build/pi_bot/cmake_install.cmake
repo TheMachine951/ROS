@@ -56,3 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pi_bot" TYPE PROGRAM FILES "/home/sergio/catkin_ws/build/pi_bot/catkin_generated/installspace/pi_bot_driver.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pi_bot" TYPE PROGRAM FILES "/home/sergio/catkin_ws/build/pi_bot/catkin_generated/installspace/pi_cam_open_browser.py")
+endif()
+

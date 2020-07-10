@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- To be launched on host PC -->
+
+  <node pkg="joy" type="joy_node" name="joystick">
+  </node>
+
+  <node pkg="pi_bot" type="pi_cam_open_browser.py" name="web">
+  </node>
+
+</launch>

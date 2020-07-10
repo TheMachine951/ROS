@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- To be launched on RasberryPi -->
+
+  <node pkg="pi_bot" type="pi_bot_driver.py" name="driver" output="screen">
+  </node>
+
+  <node pkg="pi_bot" type="pi_cam_stream.py" name="camera">
+  </node>
+
+</launch>
